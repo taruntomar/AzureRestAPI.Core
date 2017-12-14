@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AzureRESTAPI
 It provides a wrapper on variour Azure REST APIs
 
@@ -18,3 +19,6 @@ Subscription[] subscriptions =  managementAPI.Subscriptions(); // return list of
 
 
 
+=======
+# AzureRestAPI.Core
+>>>>>>> b44a67a91c3be20b2c666a2b623185ac8e87059e
