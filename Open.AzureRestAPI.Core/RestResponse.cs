@@ -8,6 +8,10 @@ using Newtonsoft.Json.Converters;
 
 namespace Open.AzureRestAPI.Core
 {
+    ///this is the response class
+    ///this class can be used to return the response received from api call, by casting object received to ResultType and Errors
+
+
     public class RestResponse<R, E>
     {
         public R Result { get; set; }

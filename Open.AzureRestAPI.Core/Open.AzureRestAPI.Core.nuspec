@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+    <!-- Required elements-->
+    <id>Open.AzureRestAPI.Core</id>
+    <version>1.0.0</version>
+    <description>A library to facilitate authentication using OAuth protocol.</description>
+    <authors>Tarun Kumar Tomar</authors>
+
+    <!-- Optional elements -->
+    <dependencies>
+        <dependency id="db-dealer" version="1.0.6" />
+        <dependency id="Newtonsoft.Json" version="10.0.3" />
+        <dependency id="RestSharp" version="106.1.0" />
+    </dependencies>
+
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+     <file src="bin/Release/Open.AzureRestAPI.Core.dll" target="lib/net45" />
+    </files>
+</package>

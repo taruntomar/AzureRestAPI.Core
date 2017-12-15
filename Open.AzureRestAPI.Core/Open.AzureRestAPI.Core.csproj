@@ -58,6 +58,7 @@
     <Compile Include="RestResponse.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Open.AzureRestAPI.Core.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
